@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { InputContentComponent } from './input-content.component';
 
 describe('InputContentComponent', () => {
