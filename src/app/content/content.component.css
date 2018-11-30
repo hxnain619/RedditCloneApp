@@ -1,0 +1,59 @@
+.card{
+    background: rgb(66, 66, 66);
+    height: auto; 
+    max-width: 60%;
+    margin: 10% auto;
+    margin-bottom: 0;
+    margin-top: 2%;
+    padding-left:1%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    border-radius: 2px;
+}
+.desc-container{
+    display: flex;
+}
+.content {
+    max-width: 50%;
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.point {
+    max-width: 50%;
+    height: 130px;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 2%;
+    border-radius: 2px;
+    background:white;
+    text-align: center;
+
+}
+.point-count{
+    font-size: 4em;
+    color: rgb(223, 30, 99);
+}
+.point-text{
+    color: rgb(223, 30, 99);
+    font-size: 1.2em;
+}
+.title{
+    font-size: 1.8em;
+    color: rgb(223, 30, 99);
+}
+.link {
+    font-size: 1em;
+    color: rgb(192, 192, 186);
+}
+mat-card-actions {
+    text-align: right;
+}
+.anchor {
+    text-decoration: none;
+}
+.anchor:hover{
+    font-size: 1.05em;
+    transition: font-size 0.5s ease-in-out;
+    
+}

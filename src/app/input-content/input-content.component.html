@@ -1,0 +1,25 @@
+<div class="inputContainer">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title >Add A Link</mat-card-title>
+    </mat-card-header>
+    <hr/>
+    <mat-card-content>
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label >Enter The Title</mat-label>
+          <input matInput (keyup.enter)='AddContent(newTitle,newLink)'placeholder="The Title ..." #newTitle>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label >Enter The Link</mat-label>
+          <input matInput (keyup.enter)='AddContent(newTitle,newLink)' placeholder="Your Link ..." #newLink>
+        </mat-form-field>
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color='primary'  (click)='AddContent(newTitle,newLink)'>Submit Link</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

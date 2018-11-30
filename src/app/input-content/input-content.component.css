@@ -1,0 +1,20 @@
+.inputContainer{
+    margin: 10%;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom: 0%; 
+    width: 60%;
+    padding: 10%;
+    padding-bottom: 0%;
+    padding-top: 5em;
+}
+
+mat-form-field.mat-form-field  {
+    width: 100%;
+}
+mat-card-actions {
+    text-align: right;
+}
+mat-card-title{
+    color: rgb(223, 30, 99);
+}

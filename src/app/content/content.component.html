@@ -1,0 +1,38 @@
+<div class="contentContainer">
+    <div class="card">
+           <div class="desc-container">
+            <div class="point">
+                <span class="point-count">
+                   {{redditContent.points}}
+                </span>
+                <br/>
+                <span class="point-text">
+                    Points
+                </span>
+            </div>
+            <div class="content">
+                <a class="anchor" href="{{redditContent.link}}" >
+                <span class="title" >
+                    {{redditContent.title}}
+                </span>
+            </a>
+           
+                <br />
+                <span class="link" >
+                        {{ redditContent.domain() }}
+                </span>
+            </div>
+        </div>
+        <mat-card-actions>
+            <button mat-button color='primary' (click)='increment()'>
+                Vote Up
+                <mat-icon>arrow_upward</mat-icon>
+            </button>
+            <button mat-button color='primary' (click)='decrement()'>
+                Vote Down
+                <mat-icon>arrow_downward</mat-icon>
+            </button>
+        </mat-card-actions> 
+    </div>
+
+</div>
